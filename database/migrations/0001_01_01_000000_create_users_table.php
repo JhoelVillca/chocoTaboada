@@ -48,3 +48,12 @@ return new class extends Migration {
         Schema::dropIfExists('sessions');
     }
 };
+
+//te doy los comandos?
+// de u
+//primero apaga el server de laravel
+// php artisan make:model NombreDelModel ahi esta 
+// en su lugar de NombreDelModel pones el nombre de la tabla
+// asi esta bien?
+//si
+//ahora es de llenar esos datos 
