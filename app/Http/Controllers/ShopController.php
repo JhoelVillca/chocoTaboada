@@ -15,9 +15,10 @@ class ShopController extends Controller
         $availableProducts = $products->map(function ($product) {
             $product->total_stock = $product->batches->sum('quantity');
             return $product;
-        })->filter(function ($product) {
+        });/*->filter(function ($product) {
             return $product->total_stock > 0;
-        });
+        });*/
+
 
         return view('shop.index', ['prods' => $availableProducts]);
     }

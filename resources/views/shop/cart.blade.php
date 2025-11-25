@@ -29,15 +29,15 @@
                                 </div>
                             </div>
                         </td>
-                        <td>${{ $details['price'] }}</td>
+                        <td>{{ $details['price'] }} Bs</td>
                         <td>{{ $details['quantity'] }}</td>
-                        <td>${{ $details['price'] * $details['quantity'] }}</td>
+                        <td>{{ $details['price'] * $details['quantity'] }} Bs</td>
                     </tr>
                 @endforeach
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="3" class="text-right"><strong>Total ${{ $total }}</strong></td>
+                    <td colspan="3" class="text-right"><strong>Total {{ $total }} Bs</strong></td>
                     <td></td>
                 </tr>
                 <tr>

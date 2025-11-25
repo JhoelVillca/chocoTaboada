@@ -16,7 +16,7 @@
                         <h4 class="card-title">
                             <a href="{{ route('shop.show', $prod->slug) }}">{{ $prod->name }}</a>
                         </h4>
-                        <h5>${{ $prod->price }}</h5>
+                        <h5>{{ $prod->price }} Bs</h5>
                         <p class="card-text">{{ Str::limit($prod->description, 50) }}</p>
                     </div>
                     <div class="card-footer">
