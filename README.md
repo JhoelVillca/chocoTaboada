@@ -1,7 +1,7 @@
 
 1.  **Clonar el repositorio**
     ```bash
-    git clone [https://github.com/JhoelVillca/chocoTaboada.git](https://github.com/JhoelVillca/chocoTaboada.git)
+    git clone https://github.com/JhoelVillca/chocoTaboada.git
     cd chocoTaboada
     ```
 
@@ -24,7 +24,7 @@
 
 5.  **Crear la base de datos con MySql con el xampp corriendo**
     ```bash
-    CREATE DATABASE farmastock;
+    CREATE DATABASE chocoTaboada;
     ```
 
 7.  **Ejecutar migraciones (si aplica)**
