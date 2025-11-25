@@ -8,6 +8,18 @@ namespace App\Models;
 // men tengo 25 en lab de redes rico mano el inge vera mi nota y se va a poner orgulloso de mi
 //igual a mi
 // a mi aun no me sube la nota, kue le habre hecho, se habra dado cuenta que ers mi cuategi
+//estoy viendo que haces en terminal , si cjdo? si mano, mi terminal no devuelve nada, por kue sera 
+//
+//usaste php artisan migrate?
+// of course .-.
+//vuelve a correr php artisan migrate, pera, ia laburando...
+//ok, checa las vistas 
+//ya vi 
+//no falta la de eliminar
+//men no veo nada que sale
+//solo veo que urgas en el navegador of course .-. , pasa cap de como se ve .-.-.-.-.-.-.-.-.
+// mmm solo veo la terminal que urgas
+// no veo nada en el navegador
 /* me dijo esto:
 Tarea 1: Controladores Crea los siguientes controladores en app/Http/Controllers para las entidades Categoria y Lote (Batch). Deben seguir EXACTAMENTE la estructura de PersonasController:
 

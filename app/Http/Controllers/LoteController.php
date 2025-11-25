@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Batch;
 use Illuminate\Http\Request;
 
+use App\Models\Product;
+
 class LoteController extends Controller
 {
     public function index()
@@ -15,7 +17,8 @@ class LoteController extends Controller
 
     public function create()
     {
-        return view('lote.create');
+        $productos = Product::all();
+        return view('lote.create', ['prods' => $productos]);
     }
 
     public function save(Request $request)
@@ -27,7 +30,8 @@ class LoteController extends Controller
     public function edit($id)
     {
         $lote = Batch::findOrFail($id);
-        return view('lote.edit', ['lote' => $lote]);
+        $productos = Product::all();
+        return view('lote.edit', ['lote' => $lote, 'prods' => $productos]);
     }
 
     public function update(Request $request, $id)
